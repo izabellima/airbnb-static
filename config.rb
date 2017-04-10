@@ -15,7 +15,7 @@ activate :autoprefixer
 ###
 
 # Per-page layout changes:
-#
+
 # With no layout
 # page "/path/to/file.html", :layout => false
 #
@@ -28,6 +28,9 @@ activate :autoprefixer
 # end
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
+data.flats.each do |name, flat|
+  proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :owner => name }, :ignore => true
+end
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 

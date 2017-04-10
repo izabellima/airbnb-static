@@ -1,0 +1,65 @@
+seb:
+  owner_name: Sebastien Saunier
+  picture: ../images/card-paris.jpg
+  owner_picture: ../images/seb.jpg
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  max_number_of_guests: 2
+  smoking: true
+  wifi: true
+
+romain:
+  owner_name: Romain Paillard
+  picture: ../images/card-london.jpeg
+  owner_picture: ../images/romain.jpeg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  max_number_of_guests: 4
+  smoking: false
+  wifi: false
+
+anne:
+  owner_name: Anne
+  picture: ../images/card-brussels.jpeg
+  owner_picture: ../images/anne.jpg
+  name: Anne's home
+  summary: Lovely house
+  city: Brussels, Belgium
+  max_number_of_guests: 3
+  smoking: false
+  wifi: true
+
+bel:
+  owner_name: Bel
+  picture: ../images/fakeflat.jpg
+  owner_picture: ../images/izabel.jpg
+  name: Bel's home
+  summary: Cozy studio
+  city: Berlin, Germany
+  max_number_of_guests: 1
+  smoking: true
+  wifi: true
+
+gregorio:
+  owner_name: Gregorio
+  picture: ../images/cathouse.jpg
+  owner_picture: ../images/gregorio.jpg
+  name: Gregorio's house
+  summary: Meow
+  city: Cat city
+  max_number_of_guests: 5
+  smoking: false
+  wifi: false
+
+bojangles:
+  owner_name: bojangles
+  picture: ../images/treehouse.jpg
+  owner_picture: ../images/bojangles.jpg
+  name: Bojangles' treehouse
+  summary: Rustic treehouse
+  city: Middle of Nowhere
+  max_number_of_guests: 2
+  smoking: true
+  wifi: true
