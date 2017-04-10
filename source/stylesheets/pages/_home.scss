@@ -2,6 +2,12 @@ h2 {
   color: $gray;
 }
 
-p {
-  color: $gray-darker;
+
+
+body {
+  box-sizing: border-box;
+}
+
+div {
+  display: box;
 }

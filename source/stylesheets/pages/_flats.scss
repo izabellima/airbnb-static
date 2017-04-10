@@ -1,0 +1,41 @@
+#flat-info p {
+  text-shadow: 0;
+  color: $gray;
+}
+
+.header-flat-details {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  padding-left: 0;
+}
+
+.header-flat p {
+  font-weight: lighter;
+}
+
+.header-flat-owner {
+  color: gray;
+  float: left;
+  padding: 20px;
+  line-height: 20px;}
+
+.header-flat-name {
+  text-align: left;
+}
+.header-flat-name h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.booking-form {
+  background-color: $gray-lighter;
+  margin: 25px;
+  padding: 20px;
+
+}
+
+.booking-form h4 {
+  font-size: 18px;
+  color: $gray;
+}
